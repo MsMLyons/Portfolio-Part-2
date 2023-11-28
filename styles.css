@@ -7,9 +7,10 @@
 body {
     background-image: linear-gradient(
         to left, 
-        rgba(0, 116, 157, 0.8),
-        hsla(206, 98%, 18%, 0.8)
+        #00d5ff,
+        #020024
         );
+    color: rgb(209, 213, 219);
 }
 
 nav, footer {
@@ -40,6 +41,7 @@ a {
 
 main {
     height: 700px;
+    padding: 20px; /* adjust later */
 }
 
 footer p {
